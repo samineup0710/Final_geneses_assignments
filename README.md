@@ -1,6 +1,7 @@
 # Final_geneses_assignments
 Contains 3 .py files from previous 3 sessions.
 Session1.py file: contains 4 functions for qns  2, 3, 4, 5 qns from previous session 1 exercise questions.
+
                   A.  to_Celsius function ---  for converting the farhenheit to celcius degree.
                   
                   B.  to_minsec function ---   for converting the seconds value into minute and second.
@@ -11,6 +12,7 @@ Session1.py file: contains 4 functions for qns  2, 3, 4, 5 qns from previous ses
                   
              
 Sessions2.py file: contains 3 functions for qns  1, 2, 4 qns from previous session 2 exercise questions.
+
                   A.  sum_elements function --- functions for finding the sum of list items without using sum() method.
                   
                   B.  common_elem function ---  function for finding the common elements in the list.
