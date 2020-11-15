@@ -26,7 +26,7 @@ Sessions3.py file: contains 3 functions for qns  1, 2, 6 qns from previous sessi
                   
                   B.  palindrome function ---  functions to check string if palindrome or not.
                   
-                  C.  harmonic_series function --- functions for printing harmonic series and its sum.
+                  C.  intodict function --- functions for printing dictionary consisting of characters and its repetitions given from users strings.
                   
                   
                   
