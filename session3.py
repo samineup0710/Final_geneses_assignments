@@ -34,17 +34,18 @@ def palindrome(userinput):
     else:
         print("{} is a palindrome string".format(str(userinput)))
 
-""""""
-def harmonic_series(inp):
-    """set counter to store sum"""
-    s = 0
-    for i in range(1,inp+1):
-        s =s+(1/i)
-        if i!=0:
-            """to print harmonic series"""
-            print("1/{} + ".format(i), end = " ")
-            """ to print harmonic series sum"""
-    print("\nThe sum of series is",round(s,3))
+"""function to print to  dictionary consisting of character and its repetitions."""
+def intodict(inpt):
+    print("The input string of char is:", inpt)
+    dictval = {}
+    for ch in inpt:
+        #print(ch)
+        if len(inpt)==0:
+            print("invalid operations")
+            """ count each character repetition"""
+        x = inpt.count(ch)
+        dictval[ch] = str(x)     # append into dictionary
+    print("The given dictionary of char is:" + '\n', dictval)
 
 
 
@@ -57,6 +58,6 @@ if __name__ == '__main__':
     inpt_str = input("Enter the strings:")
     palindrome(inpt_str)
     print('\n')
-    print("---------PRINTING HARMONIC SERIES AND ITS SUM---------")
-    userinp = int(input("Enter the number of terms: "))
-    harmonic_series(userinp)
+    print("---------PRINTING CHARACTERS FROM STRING AND ITS REPETITION INTO DICTIONARY---------")
+    userinp = input("Enter the strings: ")
+    intodict(userinp)
